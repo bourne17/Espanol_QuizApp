@@ -1,6 +1,6 @@
 package com.dianajconcepcion.espanolQuiz
 
-data class Question(
+data class ClasePregunta(
     val id: Int,
     val question: String,
     val optionOne: String,

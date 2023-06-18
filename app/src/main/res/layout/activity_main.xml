@@ -7,6 +7,7 @@
     android:background="@drawable/ic_bg"
     android:gravity="center"
     android:orientation="vertical"
+    tools:viewBindingIgnore="false"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,7 +15,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
-        android:fontFamily="@font/roboto"
         android:gravity="center"
         android:text="@string/app_name"
         android:textColor="@android:color/white"
@@ -43,7 +43,6 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_bold"
                 android:gravity="center"
                 android:text="@string/welcome"
                 android:textColor="#363A43"
@@ -53,7 +52,6 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_light"
                 android:gravity="center"
                 android:text="@string/start_message"
                 android:textColor="#7A8089"
@@ -66,7 +64,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:background="@color/colorPrimary"
-                android:fontFamily="@font/roboto_bold"
                 android:text="@string/start_button"
                 android:textColor="@android:color/white"
                 android:textSize="18sp">
